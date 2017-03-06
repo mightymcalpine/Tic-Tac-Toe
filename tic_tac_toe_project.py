@@ -1,30 +1,3 @@
-#		input from player 1
-#		input from player 2
-#		'X' value input
-#		'O' value input
-
-#		9 possible positions on the board
-#		the board is a grid, 3 rows, 3 columns
-#		positions on the board can be vars, 
-#
-#
-#		POSSIBLE OUTCOMES
-#			3 consecutive Xs
-#			3 consecutive Os
-#			tie
-#			game is ongoing
-#
-#
-#				***** Scope *****
-#
-#		1. print a board
-#		2. take in player input
-#		3. place player input on the board
-#		4. check if the game is won, tied, lost, or ongoing
-#		5. repeat steps 3 and 4 (above) until game is over
-#		6. Ask if players want to play again
-#
-#
 board_row1 = ['1','2','3']
 board_row2 = ['4','5','6']
 board_row3 = ['7','8','9']
@@ -55,5 +28,3 @@ print_board()
 print
 print "I know I know. Let\'s just go with it alright"
 print 'So each turn you will choose a position on the board, 1-9.\nThen, the computer will place an %s for %s and an %s for %s' % (player_one_marker, player_one, player_two_marker, player_two)
-
-
